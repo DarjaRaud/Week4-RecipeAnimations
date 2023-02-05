@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sono&display=swap');
+
+body {
+    background-color: #E1B0AC;
+}
+
+.ingredients {
+    border: 1px solid #213F99;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.table {
+    margin: 0 auto;
+    color: #213F99;
+    font-family: 'Sono', sans-serif;
+}
+
+.steps {
+    border: 1px solid #213F99;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.joon {
+    border: 2px solid #213F99;
+}
+
+.heading {
+    text-align: center;
+}
+
+.headingcolor {
+    color: #213F99;
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer {
+    color: #213F99;
+}
+
+.stepcolor {
+    color: #213F99;
+    font-family: 'Sono', sans-serif;
+}
+
+.img1 {
+    float: left;
+    position: relative;
+    animation: img1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.img11 {
+    width:320px;
+}
+
+@keyframes img1 {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.img2 {
+    float: right;
+    text-align: right;
+    animation: img2;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
+
+.img22 {
+    width:320px;
+}
+
+@keyframes img2 {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+.img3 {
+    float: right;
+    text-align: right;
+    animation: img2;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
+
+.img33 {
+    width:320px;
+}
+
+@keyframes img3 {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+.img4 {
+    float: left;
+    position: relative;
+    animation: img4;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.img44 {
+    width:320px;
+}
+
+@keyframes img4 {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.enjoy {
+    text-align: center;
+    color: #213F99;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+}
+
+.source {
+    color: #213F99;
+}
+
+.btn {
+    opacity: 0;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #213F99;
+    font-size: 2rem;
+    font-family: 'Sono', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #213F99;
+    animation: aniBtn;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@keyframes aniBtn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
